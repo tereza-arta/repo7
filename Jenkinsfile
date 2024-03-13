@@ -3,6 +3,7 @@ pipeline {
   stages {
     stage("build") {
       steps {
+        sh 'docker ps'
         sh """
           docker build -t hello_there .
         """
