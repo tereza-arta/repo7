@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Init in repo7') {
       steps {
-        echo "Hello from Jenkinsfile of repo7"
+        echo "Hello from Jenkinsfile of repo7.."
       }
     }
     /*stage("build") {
